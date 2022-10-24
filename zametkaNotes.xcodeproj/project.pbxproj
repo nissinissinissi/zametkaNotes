@@ -13,6 +13,8 @@
 		CEB36DF6290564890095DCAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB36DF4290564890095DCAB /* Main.storyboard */; };
 		CEB36DF82905648A0095DCAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB36DF72905648A0095DCAB /* Assets.xcassets */; };
 		CEB36DFB2905648A0095DCAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB36DF92905648A0095DCAB /* LaunchScreen.storyboard */; };
+		CEB36E04290564AF0095DCAB /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB36E03290564AF0095DCAB /* NoteViewController.swift */; };
+		CEB36E07290564C40095DCAB /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB36E06290564C40095DCAB /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEB36DF72905648A0095DCAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB36DFA2905648A0095DCAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB36DFC2905648A0095DCAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB36E03290564AF0095DCAB /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		CEB36E06290564C40095DCAB /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CEB36DF72905648A0095DCAB /* Assets.xcassets */,
 				CEB36DF92905648A0095DCAB /* LaunchScreen.storyboard */,
 				CEB36DFC2905648A0095DCAB /* Info.plist */,
+				CEB36E03290564AF0095DCAB /* NoteViewController.swift */,
+				CEB36E06290564C40095DCAB /* EntryViewController.swift */,
 			);
 			path = zametkaNotes;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB36E04290564AF0095DCAB /* NoteViewController.swift in Sources */,
+				CEB36E07290564C40095DCAB /* EntryViewController.swift in Sources */,
 				CEB36DF3290564890095DCAB /* ViewController.swift in Sources */,
 				CEB36DEF290564890095DCAB /* AppDelegate.swift in Sources */,
 				CEB36DF1290564890095DCAB /* SceneDelegate.swift in Sources */,
